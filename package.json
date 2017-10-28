@@ -1,0 +1,32 @@
+{
+  "name": "todoListApi",
+  "version": "1.0.0",
+  "description": "todo List RESTful API tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okayohyeah/todoListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "Katherine Oh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okayohyeah/todoListApi/issues"
+  },
+  "homepage": "https://github.com/okayohyeah/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4"
+  }
+}
